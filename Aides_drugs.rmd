@@ -1,7 +1,7 @@
 ---
 title: "Aides Tests"
 author: "Jerron Davison"
-date: "May 24, 2017"
+date: "May 30, 2018"
 output: html_document
 ---
 
@@ -16,7 +16,7 @@ Atriplavast<-read.csv(file="Atriplavast.csv",header=TRUE)
 
 #Instructions
 
-Three new preventative aides drugs were tested in clinical trials in 2015. The trial designs were modeled after the famous RV_144 Aides Trials in Tailand in 2009.  Analyze and report on the apparent effectiveness of the three different drugs. Does sex of the participant seem to be a factor for any of the drugs?
+Three new preventative aides drugs were tested in clinical trials in 2015. The trial designs were modeled after the famous RV_144 Aides Trials in Tailand in 2009. Analyze and report on the apparent effectiveness of the three different drugs. Does sex of the participant seem to be a factor for any of the drugs? Which if any drug would you recommend or tell to avoid for a 32 year old female? How about a 27 year old male?
 
 
 # Genvoyabub
@@ -631,9 +631,19 @@ chisqtestGC(BM2)
 Our p-value from the chi squared test is approxoimatley 0.0926, which suggests that, under a true null hypothesis, we have about a .09% probablity of returning a sample like this. The p-value must surpass the threshold of .05, in order to accept our null hypothesis as true. Since it does, we fail to reject the null hypothesis, therefore there is not a relationship for males between getting AIDS and taking Abacavirinol.
 
 ## Conclusion
-From the three tests we ran on the data from males, we have seen that getting the AIDS virus is dependent (not related) of taking Abacavirinol. We saw the evidence outlined in the numerical test, barchart, and chi squared test. The barchart and numerical tests shows us that men who take Abacavirinol had a higher occurrence of AIDS. Our chi squared test showed us, for men, there is not a relationship between getting the AIDS virus is and taking Abacavirinol.. From these tests we can conclude that, men who take Abacavirinol increase their probablity of getting the AIDS virus. This shows us that Abacavirinol does not work for preventing the AIDS virus, for men, and it also suggests that it will increase the risk of getting infected with AIDS.
+From the three tests we ran on the data from males, we have seen that getting the AIDS virus is dependent not related of taking Abacavirinol. We saw the evidence outlined in the numerical test, barchart, and chi squared test. The barchart and numerical tests shows us that men who take Abacavirinol had a higher occurrence of AIDS. Our chi squared test showed us, for men, there is not a relationship between getting the AIDS virus is and taking Abacavirinol.. From these tests we can conclude that, men who take Abacavirinol increase their probablity of getting the AIDS virus. This shows us that Abacavirinol does not work for preventing the AIDS virus, for men, and it also suggests that it will increase the risk of getting infected with AIDS.
 
+## Results and Final Conclusions
 
+In the test studies of the three drugs Genavoyabub did not work to treat AIDS virus. For Genvoyabub, the differences in the infected group who took the drug compared to the results of the placebo group were too small, making the groups just about equal. Which suggested that, it did not matter whether or not someone had took Genvoyabub, so it does not work effectivley to prevent the AIDS virus. In Atriplavast and Abacavirinol, there was a similar outcome of Genavoyabub, even though Atriplavast and Abacavirinol did lower the rate of occurence, it was barley anything. Therefore, it did not matter whether or not someone took the drug or the placebo, so Atriplavast and Abacavirinol also do not work effectivley to prevent the AIDS virus.
+
+When I ran the tests and examined the results to see if the sex of the participant seemed to be a factor, different results was found than the ones listed above. For females, Genovoyabub was found to not be effective, because the data showed that it made no difference on the rate of AIDS infection whether a female took Genovoyabub or the placebo. Atriplavast was also not effective and considered a risk for females, because the results from the data reflected a lower AIDS infection rate in the placebo group; this suggested that females who take Atriplavast will increase their chances of getting infected with AIDS. The only drug found to be effective for AIDS and females was the Abacavirinol drug, the results from the tests suggested that females who was in the group infected with AIDS who took Abacavirinol had a noticeably lower occurence then those who took the placebo. The low p-value also further supports that, for females, getting the AIDS virus is dependent related to taking Abacavirinol.
+
+For the males, Genvoyabub was found to not work effectivley to prevent the AIDS virus. The differences in the infected group who took the drug compared to the results of the placebo group were too small, making the groups almost equal. Which suggested that, it did not matter whether or not someone took Genvoyabub. Abacavirinol was also not effective and considered a risk for men, because the results from the data reflected a lower AIDS infection rate in the placebo group; this suggested that women who take Abacavirinol will increase their chances of getting infected with AIDS. The only drug found to be effective for AIDS and men was Atriplavast, the results from the tests showed that men who were in the group infected with AIDS who took Atriplavast had nearly 2x less of occurence then those who took the placebo. The significantly low p-value also further supports that, for males, getting the AIDS virus is dependent related to taking Atriplavast.
+
+Between the three drugs, for the 32 year old female, it is reccomended to take Abacavirinol. The results from that tests on Abacavirinol data for females shows a lower rate of occurence of AIDS compared to the group who got AIDS and took the placebo; and the low p-value result shows that there is a decent relationship for females between getting AIDS and taking Abacavirinol. The results shows that this drug is effective with AIDS in females. The other two drugs does not show effective results.
+
+For the 27 year old male, Atriplavast is reccomended. The results from the test on Atriplavast data for males shows a decreasing rate of occurence of AIDS, for those who took Atriplavast, compared to the group who got AIDS and took the placebo and the significantly low p-value result suggests that there is a strong relationship,for males, between getting AIDS and taking Abacavirinol.The other two drugs does not show effective results.
 
 
 
